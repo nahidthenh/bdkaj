@@ -195,10 +195,11 @@ p{
 ==========================================
 */
 
-.work-form-home{
-    background-image: url(../img/workformhome-bg.png);
-    background-size: cover;
-    height: 100vh;
+.work-form-home {
+	background-image: url(../img/workformhome-bg.png);
+	background-size: cover;
+	/* height: 100vh; */
+	padding-bottom: 150px;
 }
 .wfh-title {
 	font-weight: 800;
