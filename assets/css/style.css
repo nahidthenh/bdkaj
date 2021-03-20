@@ -4,6 +4,8 @@
 ==========================================
 */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700;800&family=Open+Sans:wght@300;400;600;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 /*
 ==========================================
     Reset Css
@@ -38,8 +40,8 @@ p{
 */
 .nav-item a {
 	color: #3f475c;
-	font-family: 'Open Sans', sans-serif !important;
-    font-weight: 400;
+	font-weight: 800;
+	font-family: 'Comfortaa', cursive !important;
 }
 .navbar-brand img {
 	max-width: 13%;
@@ -52,7 +54,7 @@ p{
 	color: #fff;
 	font-weight: 600;
 	border-radius: 4px;
-	margin: 0px -1px;
+	margin: 0px -40px;
 }
 /*
 ==========================================
@@ -147,7 +149,7 @@ p{
 	font-size: 14px;
 }
 .catagory-box {
-	background: #FFFFFF;
+	/* background: #FFFFFF; */
 	border-radius: 10px;
 	padding: 30px;
 	box-shadow: #8A8A8A 0px 2px 9px -5px;
@@ -207,4 +209,39 @@ p{
 .wfh-view{
     margin-top: 70px;
 	margin-bottom: 40px;
+}
+.wfh-view a {
+	text-decoration: none;
+	color: #343c52;
+	font-size: 21px;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: 700;
+}
+.work-form-home-box {
+	background: #FFFFFF;
+	border-radius: 16px;
+	padding: 30px;
+	box-shadow: #8A8A8A 0px 2px 9px -5px;
+	min-height: 230px !important;
+	margin-top: 60px;
+}
+/* .work-form-home-box:hover{
+	background: #E2F2E1;
+    transition: .3s;
+    cursor: pointer;
+}
+.work-form-home-box:hover .wfhb-title{
+	color: #77C475;
+    transition: .3s;
+    cursor: pointer;
+} */
+.wfhb-title {
+	font-weight: bold;
+	margin-bottom: 14px;
+    color: #3f475c;
+}
+.wfhb-text {
+	font-size: 14px;
+    color: #a7a7a8;
+
 }
