@@ -246,3 +246,59 @@ p{
     color: #a7a7a8;
 
 }
+
+/*
+==========================================
+    how it work area Css
+==========================================
+*/
+.how-it-work-area{
+	background-size: cover;
+	background-image:url(../img/how-it-work-bg.png) ;
+	height: 100vh;
+}
+.hiw-title {
+	text-align: center;
+	font-weight: 800;
+	font-size: 33px;
+	color: #343c52;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.hiw-text {
+	text-align: center;
+	color: #a7a7a8;
+}
+.hiw-branding {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.hiw-content {
+	display: flex;
+}
+.mt-130{
+	margin-top: 130px;
+}
+.hiw-content span img {
+	max-height: 50px;
+}
+.hiw-content span {
+	background: #fff;
+	padding: 29px 26px;
+	border-radius: 50%;
+	/* text-align: center; */
+	/* justify-content: center; */
+	/* display: flex; */
+	/* box-shadow: #000 -1px 1px 5px; */
+	border: 1px solid #ededed;
+	margin: 10px 0px;
+}
+.hiwc-title {
+	color: #3f475c;
+	font-weight: 800;
+	font-size: 22px;
+}
+.hiwc-text {
+	color: #a7a7a8;
+}
