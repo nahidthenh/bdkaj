@@ -1,26 +1,17 @@
-/*------------------------------------------------------------------
-[Master Stylesheet]
-
-Project:    Project Name
-Version:    1.0
-Last change:    24/03/17 [fixed Float bug, vf]
-Author Name: Author Name
-Primary use:    Project Type
--------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. Body
-2.
--------------------------------------------------------------------*/
-
+/*
+==========================================
+    Google Fonts
+==========================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700;800&family=Open+Sans:wght@300;400;600;800&display=swap');
 /*
 ==========================================
     Reset Css
 ==========================================
 */
+body{
+    font-family: 'Baloo 2', cursive;
+}
 ul {
     margin: 0;
     padding: 0;
@@ -33,8 +24,82 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
     margin: 0;
 }
+p{
+    font-family: 'Open Sans', sans-serif !important;
+}
 
+/*
+==========================================
+    Menu Css
+==========================================
+*/
+.nav-item a {
+	color: #3f475c;
+	font-family: 'Open Sans', sans-serif !important;
+}
+.navbar-brand img {
+	max-width: 13%;
+}
+.navbar.navbar-expand-md {
+	margin-top: 25px;
+}
+/*
+==========================================
+    Hero area Css
+==========================================
+*/
+.hero-area{
+    background-image: url(../img/hero-bg.png);
+    background-size: cover;
+    height: 100vh;
+}
+.header-content {
+	margin-top: 128px;
+}
+.header-content h3 {
+	font-size: 45px;
+	color: #3f475c;
+    font-weight: 800;
+}
+.header-content h2 {
+	font-size: 70px;
+	color: #3f475c;
+	font-weight: 800;
+}
+.header-content p {
+	margin-top: 30px;
+    color:#a7a7a8;
+    font-weight:300 ;
+}
+.header-button input {
+	background: none;
+	border: 1px solid #77C475;
+	border-radius: 8px;
+	padding: 12px 25px;
+	width: 33%;
+	display: inline;
+}
+.form-control:focus {
+	color: #495057;
+	background-color: #fff;
+	/* border-color: #80bdff; */
+	outline: 0;
+	box-shadow: 0 0 0 .2rem rgb(119, 196, 117);
+}
+.btn.btn-success.search{
+	background: #77C475;
+	border-radius: 5px;
+	padding: 12px 25px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif !important;
+    border: 0;
+}
+.hero-branding {
+	margin-top: 35px;
+}
+.header-button {
+	margin-top: 80px;
+}
