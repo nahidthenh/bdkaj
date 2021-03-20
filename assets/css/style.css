@@ -163,3 +163,32 @@ p{
     transition: .3s;
     cursor: pointer;
 }
+
+/*
+==========================================
+    sponser area Css
+==========================================
+*/
+
+.sponser {
+	background:url(../img/sponser.png);
+    background-size:cover;
+    padding:50px 0px;
+}
+.sponser h3{
+    text-align: center;
+    font-weight: 800;
+    color: #343c52;
+}
+.slider-img img {
+	max-width: 65%;
+	max-height: 45px;
+	margin-top: 50px;
+}
+
+
+/*
+==========================================
+     area Css
+==========================================
+*/
