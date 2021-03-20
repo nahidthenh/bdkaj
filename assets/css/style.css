@@ -110,6 +110,7 @@ p{
 }
 .header-button {
 	margin-top: 80px;
+	margin-bottom: 80px;
 }
 
 /*
@@ -154,6 +155,11 @@ p{
 }
 .catagory-box:hover{
 	background: #E2F2E1;
+    transition: .3s;
+    cursor: pointer;
+}
+.catagory-box:hover .cb-title{
+	color: #77C475;
     transition: .3s;
     cursor: pointer;
 }
