@@ -39,12 +39,20 @@ p{
 .nav-item a {
 	color: #3f475c;
 	font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400;
 }
 .navbar-brand img {
 	max-width: 13%;
 }
 .navbar.navbar-expand-md {
 	margin-top: 25px;
+}
+.nav-link.menu-btn {
+	background: #77C475;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 4px;
+	margin: 0px -1px;
 }
 /*
 ==========================================
