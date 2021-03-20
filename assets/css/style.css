@@ -189,6 +189,22 @@ p{
 
 /*
 ==========================================
-     area Css
+    Work form home area Css
 ==========================================
 */
+
+.work-form-home{
+    background-image: url(../img/workformhome-bg.png);
+    background-size: cover;
+    height: 100vh;
+}
+.wfh-title {
+	font-weight: 800;
+	font-size: 33px;
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+.wfh-view{
+    margin-top: 70px;
+	margin-bottom: 40px;
+}
