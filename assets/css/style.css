@@ -312,7 +312,7 @@ p{
 */
 .app-ui-area {
 	background: url(../img/catagory-bg.png);
-	height: 100vh;
+	/* height: 100vh; */
 	background-size: cover;
 	padding-bottom: 70px;
 }
@@ -352,7 +352,7 @@ p{
 	background-size: cover;
 	background-image: url(../img/top-company-bg.png);
 	padding-bottom: 50px;
-	background-position: center;
+	/* background-position: center; */
 }
 .top-company h3 {
 	text-align: center;
@@ -365,3 +365,43 @@ p{
     Footer area Css
 ==========================================
 */
+.footer {
+	background-size: cover;
+	background-image: url(../img/footer-bg.png);
+	padding-bottom: 50px;
+	/* background-position: center; */
+	padding-top: 50px;
+}
+.footer ul li {
+	margin: 10px 0px;
+}
+.footer ul li a {
+	text-decoration: none;
+	color: #606060;
+	font-weight: 500;
+}
+.footer ul li a b{
+	margin-bottom: 10px;
+	font-weight: 800;
+	font-size: 20px;
+}
+.footer ul li a:hover{
+	color: #81c87f;
+	transition: .3s;
+}
+.footer ul li a img {
+	width: 100px;
+	margin-bottom: 10px;
+}
+.footer-flow ul li a i {
+	display: flex;
+	float: left;
+	margin: 0px 20px;
+	font-size: 20px;
+	margin-top: 50px;
+}
+.copy-right {
+	font-size: 18px;
+	margin-top: 57px;
+	color: #e3e5e5;
+}
