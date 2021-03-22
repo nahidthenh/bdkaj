@@ -307,7 +307,7 @@ p{
 
 /*
 ==========================================
-    app-ui-area Css
+    app ui area Css
 ==========================================
 */
 .app-ui-area {
@@ -341,4 +341,22 @@ p{
 .app-ui-download img {
 	width: 100px;
 	cursor: pointer;
+}
+
+/*
+==========================================
+    Top company area Css
+==========================================
+*/
+.top-company {
+	background-size: cover;
+	background-image: url(../img/top-company-bg.png);
+	padding-bottom: 50px;
+	background-position: center;
+}
+.top-company h3 {
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 800;
+	font-size: 32px;
 }
