@@ -255,7 +255,7 @@ p{
 .how-it-work-area{
 	background-size: cover;
 	background-image:url(../img/how-it-work-bg.png) ;
-	height: 100vh;
+	/* height: 100vh; */
 	padding-bottom: 50px;
 }
 .hiw-title {
@@ -302,4 +302,43 @@ p{
 }
 .hiwc-text {
 	color: #a7a7a8;
+}
+
+
+/*
+==========================================
+    app-ui-area Css
+==========================================
+*/
+.app-ui-area {
+	background: url(../img/catagory-bg.png);
+	height: 100vh;
+	background-size: cover;
+	padding-bottom: 70px;
+}
+
+.app-ui-content {
+	margin-top: 210px;
+}
+.app-ui-content h5 {
+	color: #81c87f;
+	font-weight: 400;
+}
+.app-ui-content h4 {
+	font-weight: 800;
+	margin: 5px 0px;
+	color: #3f475c;
+}
+.app-ui-content p {
+	color: #a7a7a8;
+	text-align: left;
+}
+  
+.app-ui-download {
+	display: flex;
+	margin-top: 30px;
+}
+.app-ui-download img {
+	width: 100px;
+	cursor: pointer;
 }
