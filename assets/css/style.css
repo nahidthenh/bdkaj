@@ -395,6 +395,46 @@ p{
 	color: #81c87f;
 	transition: .3s;
 }
+
+/*
+==========================================
+    news letter area Css
+==========================================
+*/
+.news-letter-area{
+	background-size: cover;
+	background-image: linear-gradient(180deg, #F4FDFF, #fff);
+	/* background-image: url(../img/top-company-bg.png); */
+	padding-bottom: 50px;
+	/* background-position: center; */
+}
+.nl-bg {
+	background: #FAF8FB;
+	margin-top: 50px;
+	display: table-caption;
+	width: 100% !important;
+	padding: 20px 0px;
+	border-radius: 11px;
+}
+
+.nl-bg button {
+	background: #77C475;
+	border-radius: 5px;
+	padding: 12px 25px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif !important;
+	border: 0;
+}
+
+.nwl-title {
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 800;
+	font-size: 35px;
+}
+.nwl-title span{
+	color: #81C87F;
+}
 /*
 ==========================================
     Footer area Css
