@@ -437,6 +437,28 @@ p{
 }
 /*
 ==========================================
+    Call to action area Css
+==========================================
+*/
+.cta-area{
+	background-size: cover;
+	background-image: linear-gradient(180deg, #F4FDFF, #fff);
+	/* background-image: url(../img/top-company-bg.png); */
+	padding-bottom: 50px;
+	/* background-position: center; */
+}
+.cta-title {
+	font-weight: 800;
+	font-size: 25px;
+	color: #343c52;
+	margin-top: 50px;
+}
+.cta-text {
+	color: #606060;
+	font-weight: 500;
+}
+/*
+==========================================
     Footer area Css
 ==========================================
 */
