@@ -363,6 +363,38 @@ p{
 	font-weight: 800;
 	font-size: 32px;
 }
+
+/*
+==========================================
+    Browse area Css
+==========================================
+*/
+.browse-job-area {
+	background-size: cover;
+	background-image: linear-gradient(180deg, #F4FDFF, #fff);
+	/* background-image: url(../img/top-company-bg.png); */
+	padding-bottom: 50px;
+	/* background-position: center; */
+}
+.bj-title {
+	font-weight: 800;
+	font-size: 33px;
+	color: #343c52;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.bj-content{
+	margin-top: 30px;
+}
+.bj-content ul li a {
+	text-decoration: none;
+	color: #606060;
+	font-weight: 500;
+}
+.bj-content ul li a:hover{
+	color: #81c87f;
+	transition: .3s;
+}
 /*
 ==========================================
     Footer area Css
